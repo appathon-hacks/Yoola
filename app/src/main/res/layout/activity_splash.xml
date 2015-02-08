@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color"
+    tools:context="com.voidabhi.travelapp.SplashActivity">
+
+
+
+        <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true"
+            android:gravity="center"
+        android:layout_centerInParent="true"
+        android:src="@drawable/web_hi_res_512"/>
+
+
+
+
+
+    <TextView android:id="@+id/splash_title"
+        android:layout_below="@+id/splash_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:gravity="center"
+        android:text="@string/app_name"/>
+
+
+
+</RelativeLayout>

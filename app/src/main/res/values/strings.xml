@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YoOla</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="services_na">Sorry! Google Play Services are not available on this phone!</string>
+    <string name="message_tap_marker">Tap marker to see the cab rates</string>
+    <string name="unexpected">Some unexpected error has occurred</string>
+    <string name="message_internet">Please check your internet connection</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_form">Select Preferences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Welcome To YoOla!</string>
+    <string name="select_distance">Distance cannot be 0</string>
+
+</resources>
